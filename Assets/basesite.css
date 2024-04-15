@@ -1,0 +1,25 @@
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+    flex-wrap: inherit;
+}
+
+.rowx {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+ .row>.cell {
+     padding: 6px;
+ }
+
+ .navbar {
+     padding: 0;
+ }
+
+ .dropdown-item, .nav-link {
+     cursor: pointer;
+ }
